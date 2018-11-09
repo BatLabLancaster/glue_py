@@ -1,0 +1,1000 @@
+[Summary]
+Novonix HPC data file
+Novonix
+Channel: 6
+Cell: Cell 3_0
+Serial Number: 3
+Experiment Number: Enter cell description...
+Description: Description
+Protocol: C:\Novonix\HPC Protocols\Delta\CheckUp_4V2_2V7_DifCrate_Pulse_YL_v1.pro
+Mass (g): 1.000
+Capacity (Ah): 1.000
+Area (cm^2): 1.000
+DC Offset Voltage (V): 0.000000
+Started: 11/4/2018 10:50:09 AM
+Version: 3.0.2.1
+[End Summary]
+[Protocol]
+Protocol: C:\Novonix\HPC Protocols\Delta\CheckUp_4V2_2V7_DifCrate_Pulse_YL_v1.pro
+Novonix HPC Protocol File
+Version:3.0.2.3
+Date Saved:2018-11-04
+[Protocol operating limits]
+   [0 Stop channel if voltage < 2.6900 V or if voltage > 4.2500 V]
+   [1 Stop channel if current < 0 A or if current > 14.000 A]
+   [2 Stop channel if step time > 300 h]
+   [3 Stop channel if temperature < 10.000 C or if temperature > 40.000 C]
+   [4 Stop channel if step capacity > 5.0000 Ah]
+[End protocol operating limits]
+[Protocol emergency limits]
+   [0 Shut down all channels and raise emergency alarm if voltage < 2.6000 V or if voltage > 4.3000 V]
+   [1 Shut down all channels and raise emergency alarm if current < 0 A or if current > 14.000 A]
+   [2 Shut down all channels and raise emergency alarm if step time > 400 h]
+   [3 Shut down all channels and raise emergency alarm if temperature < 10.000 C or if temperature > 40.000 C]
+   [4 Shut down all channels and raise emergency alarm if step capacity > 5.0000 Ah]
+[End protocol emergency limits]
+[Open circuit storage]
+   [Storage_time 10 minutes]
+   [Trip conditions]
+      [0 End step if voltage is less than 2.7 V]
+   [End trip conditions]
+   [Save conditions]
+      [0 Save data if ∆T is greater than 30 seconds]
+   [End save conditions]
+   [Operating limits]
+   [End operating limits]
+   [Emergency limits]
+   [End emergency limits]
+[End storage]
+[Constant current discharge]
+   [Discharge_current 1.5 A]
+   [Discharge_voltage 2.7 V]
+   [Trip conditions]
+      [0 End step if step time is longer than 10 hours]
+   [End trip conditions]
+   [Save conditions]
+      [0 Save data if ∆T is greater than 1 second]
+      [1 Save data if ∆V is greater than 0.005 V]
+   [End save conditions]
+   [Operating limits]
+   [End operating limits]
+   [Emergency limits]
+   [End emergency limits]
+[End discharge]
+[Open circuit storage]
+   [Storage_time 10 minutes]
+   [Trip conditions]
+      [0 End step if voltage is less than 2.7 V]
+   [End trip conditions]
+   [Save conditions]
+      [0 Save data if ∆T is greater than 30 seconds]
+   [End save conditions]
+   [Operating limits]
+   [End operating limits]
+   [Emergency limits]
+   [End emergency limits]
+[End storage]
+[CC-CV charge]
+   [Maximum_current 0.2 A]
+   [Charge_voltage 4.2 V]
+   [Trip conditions]
+      [0 End step if total step time is greater than 40 hours]
+      [1 End step if hold time is greater than 5 hours]
+      [2 End step if absolute current is less than 0.1 A]
+   [End trip conditions]
+   [Save conditions]
+      [0 Save data if ∆T is greater than 1 second]
+      [1 Save data if ∆V is greater than 0.001 V]
+   [End save conditions]
+   [Operating limits]
+   [End operating limits]
+   [Emergency limits]
+   [End emergency limits]
+[End CCCV charge]
+[Open circuit storage]
+   [Storage_time 10 minutes]
+   [Trip conditions]
+      [0 End step if voltage is less than 2.7 V]
+   [End trip conditions]
+   [Save conditions]
+      [0 Save data if ∆T is greater than 30 seconds]
+   [End save conditions]
+   [Operating limits]
+   [End operating limits]
+   [Emergency limits]
+   [End emergency limits]
+[End storage]
+[Constant current discharge]
+   [Discharge_current 1.5 A]
+   [Discharge_voltage 2.7 V]
+   [Trip conditions]
+      [0 End step if step time is longer than 10 hours]
+   [End trip conditions]
+   [Save conditions]
+      [0 Save data if ∆T is greater than 1 second]
+      [1 Save data if ∆V is greater than 0.001 V]
+   [End save conditions]
+   [Operating limits]
+   [End operating limits]
+   [Emergency limits]
+   [End emergency limits]
+[End discharge]
+[Open circuit storage]
+   [Storage_time 10 minutes]
+   [Trip conditions]
+      [0 End step if voltage is less than 2.7 V]
+   [End trip conditions]
+   [Save conditions]
+      [0 Save data if ∆T is greater than 30 seconds]
+   [End save conditions]
+   [Operating limits]
+   [End operating limits]
+   [Emergency limits]
+   [End emergency limits]
+[End storage]
+[CC-CV charge]
+   [Maximum_current 1.5 A]
+   [Charge_voltage 4.2 V]
+   [Trip conditions]
+      [0 End step if total step time is greater than 30 hours]
+      [1 End step if hold time is greater than 5 hours]
+      [2 End step if absolute current is less than 0.1 A]
+   [End trip conditions]
+   [Save conditions]
+      [0 Save data if ∆T is greater than 1 second]
+      [1 Save data if ∆V is greater than 0.001 V]
+   [End save conditions]
+   [Operating limits]
+   [End operating limits]
+   [Emergency limits]
+   [End emergency limits]
+[End CCCV charge]
+[Open circuit storage]
+   [Storage_time 10 minutes]
+   [Trip conditions]
+      [0 End step if voltage is less than 2.7 V]
+   [End trip conditions]
+   [Save conditions]
+      [0 Save data if ∆T is greater than 30 seconds]
+   [End save conditions]
+   [Operating limits]
+   [End operating limits]
+   [Emergency limits]
+   [End emergency limits]
+[End storage]
+[Constant current discharge]
+   [Discharge_current 1.5 A]
+   [Discharge_voltage 2.7 V]
+   [Trip conditions]
+      [0 End step if step time is longer than 10 hours]
+   [End trip conditions]
+   [Save conditions]
+      [0 Save data if ∆T is greater than 1 second]
+      [1 Save data if ∆V is greater than 0.001 V]
+   [End save conditions]
+   [Operating limits]
+   [End operating limits]
+   [Emergency limits]
+   [End emergency limits]
+[End discharge]
+[Open circuit storage]
+   [Storage_time 10 minutes]
+   [Trip conditions]
+      [0 End step if voltage is less than 2.7 V]
+   [End trip conditions]
+   [Save conditions]
+      [0 Save data if ∆T is greater than 30 seconds]
+   [End save conditions]
+   [Operating limits]
+   [End operating limits]
+   [Emergency limits]
+   [End emergency limits]
+[End storage]
+[CC-CV charge]
+   [Maximum_current 2.5 A]
+   [Charge_voltage 4.2 V]
+   [Trip conditions]
+      [0 End step if total step time is greater than 10 hours]
+      [1 End step if hold time is greater than 5 hours]
+      [2 End step if absolute current is less than 0.01 A]
+   [End trip conditions]
+   [Save conditions]
+      [0 Save data if ∆T is greater than 1 second]
+      [1 Save data if ∆V is greater than 0.001 V]
+   [End save conditions]
+   [Operating limits]
+   [End operating limits]
+   [Emergency limits]
+   [End emergency limits]
+[End CCCV charge]
+[Open circuit storage]
+   [Storage_time 10 minutes]
+   [Trip conditions]
+      [0 End step if voltage is less than 2.7 V]
+   [End trip conditions]
+   [Save conditions]
+      [0 Save data if ∆T is greater than 30 seconds]
+   [End save conditions]
+   [Operating limits]
+   [End operating limits]
+   [Emergency limits]
+   [End emergency limits]
+[End storage]
+[Constant current discharge]
+   [Discharge_current 1.5 A]
+   [Discharge_voltage 2.7 V]
+   [Trip conditions]
+      [0 End step if step time is longer than 10 hours]
+   [End trip conditions]
+   [Save conditions]
+      [0 Save data if ∆T is greater than 1 second]
+      [1 Save data if ∆V is greater than 0.001 V]
+   [End save conditions]
+   [Operating limits]
+   [End operating limits]
+   [Emergency limits]
+   [End emergency limits]
+[End discharge]
+[Open circuit storage]
+   [Storage_time 10 minutes]
+   [Trip conditions]
+      [0 End step if voltage is less than 2.7 V]
+   [End trip conditions]
+   [Save conditions]
+      [0 Save data if ∆T is greater than 30 seconds]
+   [End save conditions]
+   [Operating limits]
+   [End operating limits]
+   [Emergency limits]
+   [End emergency limits]
+[End storage]
+[CC-CV charge]
+   [Maximum_current 5 A]
+   [Charge_voltage 4.2 V]
+   [Trip conditions]
+      [0 End step if total step time is greater than 10 hours]
+      [1 End step if hold time is greater than 5 hours]
+      [2 End step if absolute current is less than 0.01 A]
+   [End trip conditions]
+   [Save conditions]
+      [0 Save data if ∆T is greater than 1 second]
+      [1 Save data if ∆V is greater than 0.001 V]
+   [End save conditions]
+   [Operating limits]
+   [End operating limits]
+   [Emergency limits]
+   [End emergency limits]
+[End CCCV charge]
+[Open circuit storage]
+   [Storage_time 10 minutes]
+   [Trip conditions]
+      [0 End step if voltage is less than 2.7 V]
+   [End trip conditions]
+   [Save conditions]
+      [0 Save data if ∆T is greater than 30 seconds]
+   [End save conditions]
+   [Operating limits]
+   [End operating limits]
+   [Emergency limits]
+   [End emergency limits]
+[End storage]
+[Constant current discharge]
+   [Discharge_current 1.5 A]
+   [Discharge_voltage 2.7 V]
+   [Trip conditions]
+      [0 End step if step time is longer than 5 hours]
+   [End trip conditions]
+   [Save conditions]
+      [0 Save data if ∆T is greater than 1 second]
+      [1 Save data if ∆V is greater than 0.005 V]
+   [End save conditions]
+   [Operating limits]
+   [End operating limits]
+   [Emergency limits]
+   [End emergency limits]
+[End discharge]
+[Open circuit storage]
+   [Storage_time 10 minutes]
+   [Trip conditions]
+      [0 End step if voltage is less than 2.7 V]
+   [End trip conditions]
+   [Save conditions]
+      [0 Save data if ∆T is greater than 30 seconds]
+   [End save conditions]
+   [Operating limits]
+   [End operating limits]
+   [Emergency limits]
+   [End emergency limits]
+[End storage]
+[Constant current charge]
+   [Charge_current 1.5 A]
+   [Charge_voltage 4.2 V]
+   [Trip conditions]
+      [0 End step if step time is longer than 10 hours]
+      [1 End step if step capacity is greater than 0.5 Ah]
+   [End trip conditions]
+   [Save conditions]
+      [0 Save data if ∆T is greater than 1 second]
+      [1 Save data if ∆V is greater than 0.001 V]
+   [End save conditions]
+   [Operating limits]
+   [End operating limits]
+   [Emergency limits]
+   [End emergency limits]
+[End charge]
+[Repeat the step(s) below]
+   [Repeat count 4]
+   [Step count 10]
+   [Open circuit storage]
+      [Storage_time 30 minutes]
+      [Trip conditions]
+         [0 End step if voltage is less than 2.7 V]
+      [End trip conditions]
+      [Save conditions]
+         [0 Save data if ∆T is greater than 30 seconds]
+      [End save conditions]
+      [Operating limits]
+      [End operating limits]
+      [Emergency limits]
+      [End emergency limits]
+   [End storage]
+   [Constant current discharge]
+      [Discharge_current 1 A]
+      [Discharge_voltage 2.7 V]
+      [Trip conditions]
+         [0 End step if step time is longer than 10 seconds]
+      [End trip conditions]
+      [Save conditions]
+         [0 Save data if ∆T is greater than 0.1 seconds]
+         [1 Save data if ∆V is greater than 0.001 V]
+      [End save conditions]
+      [Operating limits]
+      [End operating limits]
+      [Emergency limits]
+      [End emergency limits]
+   [End discharge]
+   [Open circuit storage]
+      [Storage_time 10 minutes]
+      [Trip conditions]
+         [0 End step if voltage is less than 2.7 V]
+      [End trip conditions]
+      [Save conditions]
+         [0 Save data if ∆T is greater than 1 second]
+      [End save conditions]
+      [Operating limits]
+      [End operating limits]
+      [Emergency limits]
+      [End emergency limits]
+   [End storage]
+   [Constant current charge]
+      [Charge_current 1 A]
+      [Charge_voltage 4.2 V]
+      [Trip conditions]
+         [0 End step if step time is longer than 10 seconds]
+      [End trip conditions]
+      [Save conditions]
+         [0 Save data if ∆T is greater than 0.1 seconds]
+         [1 Save data if ∆V is greater than 0.000001 V]
+      [End save conditions]
+      [Operating limits]
+      [End operating limits]
+      [Emergency limits]
+      [End emergency limits]
+   [End charge]
+   [Open circuit storage]
+      [Storage_time 10 minutes]
+      [Trip conditions]
+         [0 End step if voltage is less than 2.7 V]
+      [End trip conditions]
+      [Save conditions]
+         [0 Save data if ∆T is greater than 1 second]
+      [End save conditions]
+      [Operating limits]
+      [End operating limits]
+      [Emergency limits]
+      [End emergency limits]
+   [End storage]
+   [Constant current discharge]
+      [Discharge_current 3 A]
+      [Discharge_voltage 2.7 V]
+      [Trip conditions]
+         [0 End step if step time is longer than 10 seconds]
+      [End trip conditions]
+      [Save conditions]
+         [0 Save data if ∆T is greater than 0.1 seconds]
+         [1 Save data if ∆V is greater than 0.000001 V]
+      [End save conditions]
+      [Operating limits]
+      [End operating limits]
+      [Emergency limits]
+      [End emergency limits]
+   [End discharge]
+   [Open circuit storage]
+      [Storage_time 10 minutes]
+      [Trip conditions]
+         [0 End step if voltage is less than 2.7 V]
+      [End trip conditions]
+      [Save conditions]
+         [0 Save data if ∆T is greater than 1 second]
+      [End save conditions]
+      [Operating limits]
+      [End operating limits]
+      [Emergency limits]
+      [End emergency limits]
+   [End storage]
+   [Constant current charge]
+      [Charge_current 3 A]
+      [Charge_voltage 4.2 V]
+      [Trip conditions]
+         [0 End step if step time is longer than 10 seconds]
+      [End trip conditions]
+      [Save conditions]
+         [0 Save data if ∆T is greater than 0.1 seconds]
+         [1 Save data if ∆V is greater than 0.000001 V]
+      [End save conditions]
+      [Operating limits]
+      [End operating limits]
+      [Emergency limits]
+      [End emergency limits]
+   [End charge]
+   [Open circuit storage]
+      [Storage_time 10 minutes]
+      [Trip conditions]
+         [0 End step if voltage is less than 2.7 V]
+      [End trip conditions]
+      [Save conditions]
+         [0 Save data if ∆T is greater than 1 second]
+      [End save conditions]
+      [Operating limits]
+      [End operating limits]
+      [Emergency limits]
+      [End emergency limits]
+   [End storage]
+   [Constant current charge]
+      [Charge_current 1.5 A]
+      [Charge_voltage 4.2 V]
+      [Trip conditions]
+         [1 End step if step capacity is greater than 1 Ah]
+      [End trip conditions]
+      [Save conditions]
+         [0 Save data if ∆T is greater than 10 seconds]
+         [1 Save data if ∆V is greater than 0.005 V]
+      [End save conditions]
+      [Operating limits]
+      [End operating limits]
+      [Emergency limits]
+      [End emergency limits]
+   [End charge]
+[End repeat]
+[Open circuit storage]
+   [Storage_time 30 minutes]
+   [Trip conditions]
+      [0 End step if voltage is less than 2.7 V]
+   [End trip conditions]
+   [Save conditions]
+      [0 Save data if ∆T is greater than 30 seconds]
+   [End save conditions]
+   [Operating limits]
+   [End operating limits]
+   [Emergency limits]
+   [End emergency limits]
+[End storage]
+[Constant current discharge]
+   [Discharge_current 1 A]
+   [Discharge_voltage 2.7 V]
+   [Trip conditions]
+      [0 End step if step time is longer than 10 seconds]
+   [End trip conditions]
+   [Save conditions]
+      [0 Save data if ∆T is greater than 0.1 seconds]
+      [1 Save data if ∆V is greater than 0.000001 V]
+   [End save conditions]
+   [Operating limits]
+   [End operating limits]
+   [Emergency limits]
+   [End emergency limits]
+[End discharge]
+[Open circuit storage]
+   [Storage_time 10 minutes]
+   [Trip conditions]
+      [0 End step if voltage is less than 2.7 V]
+   [End trip conditions]
+   [Save conditions]
+      [0 Save data if ∆T is greater than 10 seconds]
+   [End save conditions]
+   [Operating limits]
+   [End operating limits]
+   [Emergency limits]
+   [End emergency limits]
+[End storage]
+[Constant current charge]
+   [Charge_current 1 A]
+   [Charge_voltage 4.2 V]
+   [Trip conditions]
+      [0 End step if step time is longer than 10 seconds]
+   [End trip conditions]
+   [Save conditions]
+      [0 Save data if ∆T is greater than 0.1 seconds]
+      [1 Save data if ∆V is greater than 0.000001 V]
+   [End save conditions]
+   [Operating limits]
+   [End operating limits]
+   [Emergency limits]
+   [End emergency limits]
+[End charge]
+[Open circuit storage]
+   [Storage_time 10 minutes]
+   [Trip conditions]
+      [0 End step if voltage is less than 2.7 V]
+   [End trip conditions]
+   [Save conditions]
+      [0 Save data if ∆T is greater than 10 seconds]
+   [End save conditions]
+   [Operating limits]
+   [End operating limits]
+   [Emergency limits]
+   [End emergency limits]
+[End storage]
+[Constant current discharge]
+   [Discharge_current 3 A]
+   [Discharge_voltage 2.7 V]
+   [Trip conditions]
+      [0 End step if step time is longer than 10 seconds]
+   [End trip conditions]
+   [Save conditions]
+      [0 Save data if ∆T is greater than 0.1 seconds]
+      [1 Save data if ∆V is greater than 0.000001 V]
+   [End save conditions]
+   [Operating limits]
+   [End operating limits]
+   [Emergency limits]
+   [End emergency limits]
+[End discharge]
+[Open circuit storage]
+   [Storage_time 10 minutes]
+   [Trip conditions]
+      [0 End step if voltage is less than 2.7 V]
+   [End trip conditions]
+   [Save conditions]
+      [0 Save data if ∆T is greater than 10 seconds]
+   [End save conditions]
+   [Operating limits]
+   [End operating limits]
+   [Emergency limits]
+   [End emergency limits]
+[End storage]
+[Constant current charge]
+   [Charge_current 3 A]
+   [Charge_voltage 4.2 V]
+   [Trip conditions]
+      [0 End step if step time is longer than 10 seconds]
+   [End trip conditions]
+   [Save conditions]
+      [0 Save data if ∆T is greater than 0.1 seconds]
+      [1 Save data if ∆V is greater than 0.000001 V]
+   [End save conditions]
+   [Operating limits]
+   [End operating limits]
+   [Emergency limits]
+   [End emergency limits]
+[End charge]
+[Open circuit storage]
+   [Storage_time 10 minutes]
+   [Trip conditions]
+      [0 End step if voltage is less than 2.7 V]
+   [End trip conditions]
+   [Save conditions]
+      [0 Save data if ∆T is greater than 30 seconds]
+   [End save conditions]
+   [Operating limits]
+   [End operating limits]
+   [Emergency limits]
+   [End emergency limits]
+[End storage]
+[Constant current discharge]
+   [Discharge_current 1.5 A]
+   [Discharge_voltage 2.7 V]
+   [Trip conditions]
+      [0 End step if step time is longer than 10 hours]
+      [1 End step if step capacity is greater than 2 Ah]
+   [End trip conditions]
+   [Save conditions]
+      [0 Save data if ∆T is greater than 30 seconds]
+      [1 Save data if ∆V is greater than 0.005 V]
+   [End save conditions]
+   [Operating limits]
+   [End operating limits]
+   [Emergency limits]
+   [End emergency limits]
+[End discharge]
+[Open circuit storage]
+   [Storage_time 10 minutes]
+   [Trip conditions]
+      [0 End step if voltage is less than 2.7 V]
+   [End trip conditions]
+   [Save conditions]
+      [0 Save data if ∆T is greater than 10 seconds]
+   [End save conditions]
+   [Operating limits]
+   [End operating limits]
+   [Emergency limits]
+   [End emergency limits]
+[End storage]
+[End Protocol]
+[Data]
+Date and Time,Cycle Number,Step Number,Run Time (h), Step Time (h),Current (A),Potential (V),Capacity (Ah),Temperature (°C),Circuit Temperature (°C)
+11/4/2018 10:50:09 AM,1,0,0.0000000,0.0000000,0.0000000000,3.81125532,0.0000000000,20.00000000,23.222
+11/4/2018 10:50:09 AM,1,0,0.0000750,0.0000750,0.0000000000,3.81125640,0.0000000000,20.00000000,23.222
+11/4/2018 10:50:40 AM,1,0,0.0084500,0.0084500,0.0000000000,3.81126509,0.0000000000,20.00000000,23.239
+11/4/2018 10:51:10 AM,1,0,0.0167833,0.0167833,0.0000000000,3.81126688,0.0000000000,20.00000000,23.213
+11/4/2018 10:51:40 AM,1,0,0.0251583,0.0251583,0.0000000000,3.81126913,0.0000000000,20.00000000,23.250
+11/4/2018 10:52:10 AM,1,0,0.0335333,0.0335333,0.0000000000,3.81127673,0.0000000000,20.00000000,23.269
+11/4/2018 10:52:40 AM,1,0,0.0419083,0.0419083,0.0000000000,3.81128348,0.0000000000,20.00000000,23.356
+11/4/2018 10:53:10 AM,1,0,0.0502833,0.0502833,0.0000000000,3.81128503,0.0000000000,20.00000000,23.227
+11/4/2018 10:53:40 AM,1,0,0.0586583,0.0586583,0.0000000000,3.81129326,0.0000000000,20.00000000,23.207
+11/4/2018 10:54:10 AM,1,0,0.0669917,0.0669917,0.0000000000,3.81130195,0.0000000000,20.00000000,23.267
+11/4/2018 10:54:40 AM,1,0,0.0753667,0.0753667,0.0000000000,3.81131250,0.0000000000,20.00000000,23.244
+11/4/2018 10:55:11 AM,1,0,0.0837417,0.0837417,0.0000000000,3.81132065,0.0000000000,20.00000000,23.220
+11/4/2018 10:55:41 AM,1,0,0.0921167,0.0921167,0.0000000000,3.81133197,0.0000000000,20.00000000,23.221
+11/4/2018 10:56:11 AM,1,0,0.1004917,0.1004917,0.0000000000,3.81133756,0.0000000000,20.00000000,23.217
+11/4/2018 10:56:41 AM,1,0,0.1088250,0.1088250,0.0000000000,3.81134718,0.0000000000,20.00000000,23.212
+11/4/2018 10:57:11 AM,1,0,0.1172000,0.1172000,0.0000000000,3.81136053,0.0000000000,20.00000000,23.234
+11/4/2018 10:57:41 AM,1,0,0.1255750,0.1255750,0.0000000000,3.81136378,0.0000000000,20.00000000,23.215
+11/4/2018 10:58:11 AM,1,0,0.1339500,0.1339500,0.0000000000,3.81137628,0.0000000000,20.00000000,23.155
+11/4/2018 10:58:41 AM,1,0,0.1423250,0.1423250,0.0000000000,3.81138722,0.0000000000,20.00000000,23.138
+11/4/2018 10:59:11 AM,1,0,0.1506583,0.1506583,0.0000000000,3.81139381,0.0000000000,20.00000000,23.156
+11/4/2018 10:59:42 AM,1,0,0.1590333,0.1590333,0.0000000000,3.81140126,0.0000000000,20.00000000,23.092
+11/4/2018 11:00:09 AM,1,0,0.1667000,0.1667000,0.0000000000,3.81140816,0.0000000000,20.00000000,23.102
+11/4/2018 11:00:09 AM,1,1,0.1667750,0.0000000,0.0000000000,3.81141072,0.0000000000,20.00000000,23.106
+11/4/2018 11:00:10 AM,1,1,0.1669056,0.0001306,-1.4991692042,3.80361995,-0.0001251607,20.00000000,23.105
+11/4/2018 11:00:11 AM,1,1,0.1671972,0.0004222,-1.4998608895,3.80253179,-0.0005625862,20.00000000,23.108
+11/4/2018 11:00:12 AM,1,1,0.1674889,0.0007139,-1.4999296447,3.80197448,-0.0010000590,20.00000000,23.109
+11/4/2018 11:00:13 AM,1,1,0.1677806,0.0010056,-1.4999576038,3.80153541,-0.0014375436,20.00000000,23.106
+11/4/2018 11:00:14 AM,1,1,0.1680722,0.0012972,-1.4999717178,3.80114499,-0.0018750337,20.00000000,23.104
+11/4/2018 11:00:15 AM,1,1,0.1683639,0.0015889,-1.4999794468,3.80080749,-0.0023125269,20.00000000,23.100
+11/4/2018 11:00:16 AM,1,1,0.1686556,0.0018806,-1.4999860334,3.80048861,-0.0027500222,20.00000000,23.094
+11/4/2018 11:00:17 AM,1,1,0.1689472,0.0021722,-1.4999908388,3.80020363,-0.0031875191,20.00000000,23.092
+11/4/2018 11:00:18 AM,1,1,0.1692389,0.0024639,-1.4999946025,3.79995837,-0.0036250171,20.00000000,23.085
+11/4/2018 11:00:19 AM,1,1,0.1695306,0.0027556,-1.4999978622,3.79971902,-0.0040625159,20.00000000,23.075
+11/4/2018 11:00:20 AM,1,1,0.1698222,0.0030472,-1.4999981646,3.79949045,-0.0045000153,20.00000000,23.076
+11/4/2018 11:00:22 AM,1,1,0.1701139,0.0033389,-1.5000002145,3.79928003,-0.0049375152,20.00000000,23.075
+11/4/2018 11:00:23 AM,1,1,0.1704056,0.0036306,-1.5000025333,3.79908707,-0.0053750156,20.00000000,23.068
+11/4/2018 11:00:24 AM,1,1,0.1706972,0.0039222,-1.5000028693,3.79889667,-0.0058125164,20.00000000,23.069
+11/4/2018 11:00:25 AM,1,1,0.1709889,0.0042139,-1.5000030709,3.79871426,-0.0062500175,20.00000000,23.065
+11/4/2018 11:00:26 AM,1,1,0.1712806,0.0045056,-1.5000051880,3.79855024,-0.0066875188,20.00000000,23.057
+11/4/2018 11:00:27 AM,1,1,0.1715722,0.0047972,-1.5000063978,3.79839429,-0.0071250205,20.00000000,23.058
+11/4/2018 11:00:28 AM,1,1,0.1718639,0.0050889,-1.5000064314,3.79823392,-0.0075625224,20.00000000,23.058
+11/4/2018 11:00:29 AM,1,1,0.1721556,0.0053806,-1.5000076748,3.79808495,-0.0080000246,20.00000000,23.061
+11/4/2018 11:00:30 AM,1,1,0.1724472,0.0056722,-1.5000081116,3.79794072,-0.0084375269,20.00000000,23.063
+11/4/2018 11:00:31 AM,1,1,0.1727389,0.0059639,-1.5000088173,3.79781619,-0.0088750294,20.00000000,23.066
+11/4/2018 11:00:32 AM,1,1,0.1730306,0.0062556,-1.5000093550,3.79766908,-0.0093125321,20.00000000,23.069
+11/4/2018 11:00:33 AM,1,1,0.1733222,0.0065472,-1.5000088845,3.79753819,-0.0097500349,20.00000000,23.076
+11/4/2018 11:00:34 AM,1,1,0.1736139,0.0068389,-1.5000103295,3.79740816,-0.0101875377,20.00000000,23.076
+11/4/2018 11:00:35 AM,1,1,0.1739056,0.0071306,-1.5000101615,3.79729558,-0.0106250406,20.00000000,23.084
+11/4/2018 11:00:36 AM,1,1,0.1741972,0.0074222,-1.5000103631,3.79718199,-0.0110625436,20.00000000,23.087
+11/4/2018 11:00:37 AM,1,1,0.1744889,0.0077139,-1.5000104976,3.79706848,-0.0115000467,20.00000000,23.085
+11/4/2018 11:00:38 AM,1,1,0.1747806,0.0080056,-1.5000110016,3.79695520,-0.0119375497,20.00000000,23.089
+11/4/2018 11:00:39 AM,1,1,0.1750722,0.0082972,-1.5000112369,3.79683898,-0.0123750529,20.00000000,23.089
+11/4/2018 11:00:40 AM,1,1,0.1753639,0.0085889,-1.5000113713,3.79673563,-0.0128125562,20.00000000,23.090
+11/4/2018 11:00:41 AM,1,1,0.1756556,0.0088806,-1.5000116737,3.79663182,-0.0132500596,20.00000000,23.094
+11/4/2018 11:00:43 AM,1,1,0.1759472,0.0091722,-1.5000121106,3.79652537,-0.0136875631,20.00000000,23.093
+11/4/2018 11:00:44 AM,1,1,0.1762389,0.0094639,-1.5000117745,3.79641845,-0.0141250666,20.00000000,23.095
+11/4/2018 11:00:45 AM,1,1,0.1765306,0.0097556,-1.5000130515,3.79632892,-0.0145625701,20.00000000,23.099
+11/4/2018 11:00:46 AM,1,1,0.1768222,0.0100472,-1.5000125811,3.79623837,-0.0150000737,20.00000000,23.097
+11/4/2018 11:00:47 AM,1,1,0.1771139,0.0103389,-1.5000128835,3.79614178,-0.0154375774,20.00000000,23.098
+11/4/2018 11:00:48 AM,1,1,0.1774056,0.0106306,-1.5000128499,3.79604735,-0.0158750812,20.00000000,23.096
+11/4/2018 11:00:49 AM,1,1,0.1776972,0.0109222,-1.5000136900,3.79594680,-0.0163125850,20.00000000,23.099
+11/4/2018 11:00:50 AM,1,1,0.1779889,0.0112139,-1.5000137236,3.79586456,-0.0167500890,20.00000000,23.100
+11/4/2018 11:00:51 AM,1,1,0.1782806,0.0115056,-1.5000144965,3.79577021,-0.0171875930,20.00000000,23.100
+11/4/2018 11:00:52 AM,1,1,0.1785722,0.0117972,-1.5000138244,3.79568231,-0.0176250970,20.00000000,23.100
+11/4/2018 11:00:53 AM,1,1,0.1788639,0.0120889,-1.5000138580,3.79559013,-0.0180626011,20.00000000,23.100
+11/4/2018 11:00:54 AM,1,1,0.1791556,0.0123806,-1.5000138916,3.79550339,-0.0185001051,20.00000000,23.099
+11/4/2018 11:00:55 AM,1,1,0.1794472,0.0126722,-1.5000145973,3.79542192,-0.0189376092,20.00000000,23.099
+11/4/2018 11:00:56 AM,1,1,0.1797389,0.0129639,-1.5000140261,3.79533883,-0.0193751133,20.00000000,23.093
+11/4/2018 11:00:57 AM,1,1,0.1800306,0.0132556,-1.5000139588,3.79525868,-0.0198126174,20.00000000,23.090
+11/4/2018 11:00:58 AM,1,1,0.1803222,0.0135472,-1.5000141269,3.79517163,-0.0202501215,20.00000000,23.091
+11/4/2018 11:00:59 AM,1,1,0.1806139,0.0138389,-1.5000140261,3.79508713,-0.0206876257,20.00000000,23.090
+11/4/2018 11:01:00 AM,1,1,0.1809056,0.0141306,-1.5000146309,3.79501668,-0.0211251298,20.00000000,23.089
+11/4/2018 11:01:01 AM,1,1,0.1811972,0.0144222,-1.5000141605,3.79492366,-0.0215626339,20.00000000,23.085
+11/4/2018 11:01:03 AM,1,1,0.1814889,0.0147139,-1.5000145637,3.79485228,-0.0220001381,20.00000000,23.086
+11/4/2018 11:01:04 AM,1,1,0.1817806,0.0150056,-1.5000148662,3.79477384,-0.0224376424,20.00000000,23.090
+11/4/2018 11:01:05 AM,1,1,0.1820722,0.0152972,-1.5000146309,3.79469765,-0.0228751468,20.00000000,23.093
+11/4/2018 11:01:06 AM,1,1,0.1823639,0.0155889,-1.5000141269,3.79461866,-0.0233126511,20.00000000,23.091
+11/4/2018 11:01:07 AM,1,1,0.1826556,0.0158806,-1.5000151350,3.79454069,-0.0237501556,20.00000000,23.095
+11/4/2018 11:01:08 AM,1,1,0.1829472,0.0161722,-1.5000160087,3.79447031,-0.0241876602,20.00000000,23.101
+11/4/2018 11:01:09 AM,1,1,0.1832389,0.0164639,-1.5000154375,3.79438792,-0.0246251647,20.00000000,23.106
+11/4/2018 11:01:10 AM,1,1,0.1835306,0.0167556,-1.5000150342,3.79431452,-0.0250626692,20.00000000,23.110
+11/4/2018 11:01:11 AM,1,1,0.1838222,0.0170472,-1.5000154711,3.79424174,-0.0255001737,20.00000000,23.114
+11/4/2018 11:01:12 AM,1,1,0.1841139,0.0173389,-1.5000157063,3.79417362,-0.0259376783,20.00000000,23.118
+11/4/2018 11:01:13 AM,1,1,0.1844056,0.0176306,-1.5000153030,3.79410178,-0.0263751827,20.00000000,23.121
+11/4/2018 11:01:14 AM,1,1,0.1846972,0.0179222,-1.5000153366,3.79402419,-0.0268126872,20.00000000,23.124
+11/4/2018 11:01:15 AM,1,1,0.1849889,0.0182139,-1.5000142949,3.79395444,-0.0272501916,20.00000000,23.127
+11/4/2018 11:01:16 AM,1,1,0.1852806,0.0185056,-1.5000152358,3.79388476,-0.0276876960,20.00000000,23.127
+11/4/2018 11:01:17 AM,1,1,0.1855722,0.0187972,-1.5000150006,3.79382789,-0.0281252005,20.00000000,23.129
+11/4/2018 11:01:18 AM,1,1,0.1858639,0.0190889,-1.5000151014,3.79375791,-0.0285627049,20.00000000,23.134
+11/4/2018 11:01:19 AM,1,1,0.1861556,0.0193806,-1.5000153366,3.79367955,-0.0290002094,20.00000000,23.137
+11/4/2018 11:01:20 AM,1,1,0.1864472,0.0196722,-1.5000153366,3.79361701,-0.0294377140,20.00000000,23.139
+11/4/2018 11:01:21 AM,1,1,0.1867389,0.0199639,-1.5000155383,3.79354578,-0.0298752187,20.00000000,23.145
+11/4/2018 11:01:22 AM,1,1,0.1870306,0.0202556,-1.5000157735,3.79347301,-0.0303127233,20.00000000,23.140
+11/4/2018 11:01:24 AM,1,1,0.1873222,0.0205472,-1.5000166472,3.79341567,-0.0307502279,20.00000000,23.141
+11/4/2018 11:01:25 AM,1,1,0.1876139,0.0208389,-1.5000160087,3.79335189,-0.0311877326,20.00000000,23.139
+11/4/2018 11:01:26 AM,1,1,0.1879056,0.0211306,-1.5000160423,3.79327477,-0.0316252373,20.00000000,23.137
+11/4/2018 11:01:27 AM,1,1,0.1881972,0.0214222,-1.5000158407,3.79320207,-0.0320627420,20.00000000,23.138
+11/4/2018 11:01:28 AM,1,1,0.1884889,0.0217139,-1.5000161432,3.79314458,-0.0325002467,20.00000000,23.138
+11/4/2018 11:01:29 AM,1,1,0.1887806,0.0220056,-1.5000164456,3.79306730,-0.0329377514,20.00000000,23.137
+11/4/2018 11:01:30 AM,1,1,0.1890722,0.0222972,-1.5000159415,3.79300485,-0.0333752561,20.00000000,23.142
+11/4/2018 11:01:31 AM,1,1,0.1893639,0.0225889,-1.5000157399,3.79294185,-0.0338127609,20.00000000,23.142
+11/4/2018 11:01:32 AM,1,1,0.1896556,0.0228806,-1.5000154711,3.79287753,-0.0342502657,20.00000000,23.138
+11/4/2018 11:01:33 AM,1,1,0.1899472,0.0231722,-1.5000160759,3.79281181,-0.0346877703,20.00000000,23.146
+11/4/2018 11:01:34 AM,1,1,0.1902389,0.0234639,-1.5000158071,3.79274850,-0.0351252749,20.00000000,23.143
+11/4/2018 11:01:35 AM,1,1,0.1905306,0.0237556,-1.5000159079,3.79268216,-0.0355627796,20.00000000,23.144
+11/4/2018 11:01:36 AM,1,1,0.1908222,0.0240472,-1.5000161095,3.79261357,-0.0360002844,20.00000000,23.141
+11/4/2018 11:01:37 AM,1,1,0.1911139,0.0243389,-1.5000163112,3.79255911,-0.0364377890,20.00000000,23.136
+11/4/2018 11:01:38 AM,1,1,0.1914056,0.0246306,-1.5000165800,3.79249750,-0.0368752937,20.00000000,23.137
+11/4/2018 11:01:39 AM,1,1,0.1916972,0.0249222,-1.5000160087,3.79243737,-0.0373127985,20.00000000,23.134
+11/4/2018 11:01:40 AM,1,1,0.1919889,0.0252139,-1.5000162440,3.79237616,-0.0377503033,20.00000000,23.136
+11/4/2018 11:01:41 AM,1,1,0.1922806,0.0255056,-1.5000167144,3.79231199,-0.0381878082,20.00000000,23.138
+11/4/2018 11:01:42 AM,1,1,0.1925722,0.0257972,-1.5000162104,3.79224527,-0.0386253129,20.00000000,23.135
+11/4/2018 11:01:43 AM,1,1,0.1928639,0.0260889,-1.5000167480,3.79218289,-0.0390628178,20.00000000,23.133
+11/4/2018 11:01:45 AM,1,1,0.1931556,0.0263806,-1.5000173529,3.79212167,-0.0395003226,20.00000000,23.133
+11/4/2018 11:01:46 AM,1,1,0.1934472,0.0266722,-1.5000163448,3.79205262,-0.0399378274,20.00000000,23.131
+11/4/2018 11:01:47 AM,1,1,0.1937389,0.0269639,-1.5000157063,3.79199706,-0.0403753323,20.00000000,23.131
+11/4/2018 11:01:48 AM,1,1,0.1940306,0.0272556,-1.5000170169,3.79194632,-0.0408128371,20.00000000,23.135
+11/4/2018 11:01:49 AM,1,1,0.1943222,0.0275472,-1.5000175546,3.79188805,-0.0412503420,20.00000000,23.137
+11/4/2018 11:01:50 AM,1,1,0.1946139,0.0278389,-1.5000162776,3.79182288,-0.0416878468,20.00000000,23.140
+11/4/2018 11:01:51 AM,1,1,0.1949056,0.0281306,-1.5000163784,3.79175794,-0.0421253517,20.00000000,23.143
+11/4/2018 11:01:52 AM,1,1,0.1951972,0.0284222,-1.5000156727,3.79170138,-0.0425628564,20.00000000,23.144
+11/4/2018 11:01:53 AM,1,1,0.1954889,0.0287139,-1.5000157063,3.79164055,-0.0430003612,20.00000000,23.145
+11/4/2018 11:01:54 AM,1,1,0.1957806,0.0290056,-1.5000174201,3.79158865,-0.0434378659,20.00000000,23.145
+11/4/2018 11:01:55 AM,1,1,0.1960722,0.0292972,-1.5000166136,3.79152813,-0.0438753708,20.00000000,23.146
+11/4/2018 11:01:56 AM,1,1,0.1963639,0.0295889,-1.5000161432,3.79147653,-0.0443128756,20.00000000,23.148
+11/4/2018 11:01:57 AM,1,1,0.1966556,0.0298806,-1.5000166472,3.79140988,-0.0447503805,20.00000000,23.153
+11/4/2018 11:01:58 AM,1,1,0.1969472,0.0301722,-1.5000172521,3.79135022,-0.0451878854,20.00000000,23.154
+11/4/2018 11:01:59 AM,1,1,0.1972389,0.0304639,-1.5000165800,3.79129366,-0.0456253903,20.00000000,23.156
+11/4/2018 11:02:00 AM,1,1,0.1975306,0.0307556,-1.5000175546,3.79123842,-0.0460628953,20.00000000,23.160
+11/4/2018 11:02:01 AM,1,1,0.1978222,0.0310472,-1.5000170841,3.79118178,-0.0465004002,20.00000000,23.158
+11/4/2018 11:02:02 AM,1,1,0.1981139,0.0313389,-1.5000167480,3.79112079,-0.0469379051,20.00000000,23.162
+11/4/2018 11:02:03 AM,1,1,0.1984056,0.0316306,-1.5000171849,3.79106912,-0.0473754101,20.00000000,23.156
+11/4/2018 11:02:04 AM,1,1,0.1986972,0.0319222,-1.5000177898,3.79100798,-0.0478129152,20.00000000,23.156
+11/4/2018 11:02:06 AM,1,1,0.1989889,0.0322139,-1.5000161432,3.79094917,-0.0482504202,20.00000000,23.158
+11/4/2018 11:02:07 AM,1,1,0.1992806,0.0325056,-1.5000170169,3.79090021,-0.0486879251,20.00000000,23.159
+11/4/2018 11:02:08 AM,1,1,0.1995722,0.0327972,-1.5000174201,3.79084171,-0.0491254300,20.00000000,23.159
+11/4/2018 11:02:09 AM,1,1,0.1998639,0.0330889,-1.5000157735,3.79079175,-0.0495629350,20.00000000,23.159
+11/4/2018 11:02:10 AM,1,1,0.2001556,0.0333806,-1.5000170505,3.79073604,-0.0500004400,20.00000000,23.165
+11/4/2018 11:02:11 AM,1,1,0.2004472,0.0336722,-1.5000171513,3.79067583,-0.0504379449,20.00000000,23.164
+11/4/2018 11:02:12 AM,1,1,0.2007389,0.0339639,-1.5000172185,3.79062245,-0.0508754498,20.00000000,23.165
+11/4/2018 11:02:13 AM,1,1,0.2010306,0.0342556,-1.5000170169,3.79057373,-0.0513129548,20.00000000,23.168
+11/4/2018 11:02:14 AM,1,1,0.2013222,0.0345472,-1.5000168152,3.79052019,-0.0517504598,20.00000000,23.172
+11/4/2018 11:02:15 AM,1,1,0.2016139,0.0348389,-1.5000174201,3.79046766,-0.0521879649,20.00000000,23.173
+11/4/2018 11:02:16 AM,1,1,0.2019056,0.0351306,-1.5000180586,3.79042018,-0.0526254700,20.00000000,23.180
+11/4/2018 11:02:17 AM,1,1,0.2021972,0.0354222,-1.5000181594,3.79036331,-0.0530629751,20.00000000,23.182
+11/4/2018 11:02:18 AM,1,1,0.2024889,0.0357139,-1.5000177898,3.79030814,-0.0535004803,20.00000000,23.184
+11/4/2018 11:02:19 AM,1,1,0.2027806,0.0360056,-1.5000184283,3.79025228,-0.0539379855,20.00000000,23.184
+11/4/2018 11:02:20 AM,1,1,0.2030722,0.0362972,-1.5000179578,3.79020084,-0.0543754906,20.00000000,23.186
+11/4/2018 11:02:21 AM,1,1,0.2033639,0.0365889,-1.5000173865,3.79015351,-0.0548129957,20.00000000,23.189
+11/4/2018 11:02:22 AM,1,1,0.2036556,0.0368806,-1.5000169497,3.79009656,-0.0552505008,20.00000000,23.186
+11/4/2018 11:02:23 AM,1,1,0.2039472,0.0371722,-1.5000164456,3.79003628,-0.0556880058,20.00000000,23.189
+11/4/2018 11:02:24 AM,1,1,0.2042389,0.0374639,-1.5000174537,3.78998360,-0.0561255109,20.00000000,23.188
+11/4/2018 11:02:25 AM,1,1,0.2045306,0.0377556,-1.5000171177,3.78993355,-0.0565630158,20.00000000,23.185
+11/4/2018 11:02:27 AM,1,1,0.2048222,0.0380472,-1.5000166472,3.78988281,-0.0570005208,20.00000000,23.184
+11/4/2018 11:02:28 AM,1,1,0.2051139,0.0383389,-1.5000177226,3.78982881,-0.0574380259,20.00000000,23.180
+11/4/2018 11:02:29 AM,1,1,0.2054056,0.0386306,-1.5000175882,3.78978234,-0.0578755309,20.00000000,23.179
+11/4/2018 11:02:30 AM,1,1,0.2056972,0.0389222,-1.5000168152,3.78972686,-0.0583130358,20.00000000,23.181
+11/4/2018 11:02:31 AM,1,1,0.2059889,0.0392139,-1.5000166808,3.78967713,-0.0587505408,20.00000000,23.182
+11/4/2018 11:02:32 AM,1,1,0.2062806,0.0395056,-1.5000174873,3.78962220,-0.0591880458,20.00000000,23.181
+11/4/2018 11:02:33 AM,1,1,0.2065722,0.0397972,-1.5000177226,3.78958379,-0.0596255509,20.00000000,23.187
+11/4/2018 11:02:34 AM,1,1,0.2068639,0.0400889,-1.5000178570,3.78952444,-0.0600630560,20.00000000,23.185
+11/4/2018 11:02:35 AM,1,1,0.2071556,0.0403806,-1.5000179914,3.78947501,-0.0605005612,20.00000000,23.188
+11/4/2018 11:02:36 AM,1,1,0.2074472,0.0406722,-1.5000177562,3.78942737,-0.0609380664,20.00000000,23.192
+11/4/2018 11:02:37 AM,1,1,0.2077389,0.0409639,-1.5000178234,3.78937865,-0.0613755715,20.00000000,23.192
+11/4/2018 11:02:38 AM,1,1,0.2080306,0.0412556,-1.5000174873,3.78932822,-0.0618130767,20.00000000,23.196
+11/4/2018 11:02:39 AM,1,1,0.2083222,0.0415472,-1.5000172521,3.78927523,-0.0622505818,20.00000000,23.198
+11/4/2018 11:02:40 AM,1,1,0.2086139,0.0418389,-1.5000176218,3.78923046,-0.0626880869,20.00000000,23.201
+11/4/2018 11:02:41 AM,1,1,0.2089056,0.0421306,-1.5000176554,3.78918212,-0.0631255921,20.00000000,23.205
+11/4/2018 11:02:42 AM,1,1,0.2091972,0.0424222,-1.5000178570,3.78912789,-0.0635630972,20.00000000,23.207
+11/4/2018 11:02:43 AM,1,1,0.2094889,0.0427139,-1.5000177898,3.78907249,-0.0640006023,20.00000000,23.208
+11/4/2018 11:02:44 AM,1,1,0.2097806,0.0430056,-1.5000176554,3.78902811,-0.0644381074,20.00000000,23.212
+11/4/2018 11:02:45 AM,1,1,0.2100722,0.0432972,-1.5000170505,3.78898241,-0.0648756125,20.00000000,23.218
+11/4/2018 11:02:46 AM,1,1,0.2103639,0.0435889,-1.5000172185,3.78893710,-0.0653131176,20.00000000,23.215
+11/4/2018 11:02:47 AM,1,1,0.2106556,0.0438806,-1.5000171513,3.78888799,-0.0657506227,20.00000000,23.218
+11/4/2018 11:02:49 AM,1,1,0.2109472,0.0441722,-1.5000172857,3.78883647,-0.0661881277,20.00000000,23.221
+11/4/2018 11:02:50 AM,1,1,0.2112389,0.0444639,-1.5000176890,3.78879729,-0.0666256328,20.00000000,23.224
+11/4/2018 11:02:51 AM,1,1,0.2115306,0.0447556,-1.5000174873,3.78873413,-0.0670631379,20.00000000,23.226
+11/4/2018 11:02:52 AM,1,1,0.2118222,0.0450472,-1.5000174201,3.78868898,-0.0675006430,20.00000000,23.230
+11/4/2018 11:02:53 AM,1,1,0.2121139,0.0453389,-1.5000185291,3.78863754,-0.0679381483,20.00000000,23.229
+11/4/2018 11:02:54 AM,1,1,0.2124056,0.0456306,-1.5000183611,3.78859447,-0.0683756535,20.00000000,23.231
+11/4/2018 11:02:55 AM,1,1,0.2126972,0.0459222,-1.5000179914,3.78854521,-0.0688131587,20.00000000,23.234
+11/4/2018 11:02:56 AM,1,1,0.2129889,0.0462139,-1.5000171849,3.78849920,-0.0692506639,20.00000000,23.233
+11/4/2018 11:02:57 AM,1,1,0.2132806,0.0465056,-1.5000178234,3.78845226,-0.0696881691,20.00000000,23.234
+11/4/2018 11:02:58 AM,1,1,0.2135722,0.0467972,-1.5000180586,3.78841075,-0.0701256743,20.00000000,23.236
+11/4/2018 11:02:59 AM,1,1,0.2138639,0.0470889,-1.5000174537,3.78835938,-0.0705631794,20.00000000,23.240
+11/4/2018 11:03:00 AM,1,1,0.2141556,0.0473806,-1.5000170841,3.78831307,-0.0710006845,20.00000000,23.244
+11/4/2018 11:03:01 AM,1,1,0.2144472,0.0476722,-1.5000172857,3.78826574,-0.0714381896,20.00000000,23.249
+11/4/2018 11:03:02 AM,1,1,0.2147389,0.0479639,-1.5000172857,3.78822601,-0.0718756947,20.00000000,23.250
+11/4/2018 11:03:03 AM,1,1,0.2150306,0.0482556,-1.5000176554,3.78818450,-0.0723131997,20.00000000,23.257
+11/4/2018 11:03:04 AM,1,1,0.2153222,0.0485472,-1.5000179578,3.78813935,-0.0727507048,20.00000000,23.262
+11/4/2018 11:03:05 AM,1,1,0.2156139,0.0488389,-1.5000177562,3.78808628,-0.0731882100,20.00000000,23.263
+11/4/2018 11:03:06 AM,1,1,0.2159056,0.0491306,-1.5000175882,3.78804128,-0.0736257152,20.00000000,23.269
+11/4/2018 11:03:07 AM,1,1,0.2161972,0.0494222,-1.5000175546,3.78799131,-0.0740632203,20.00000000,23.273
+11/4/2018 11:03:09 AM,1,1,0.2164889,0.0497139,-1.5000168152,3.78794895,-0.0745007253,20.00000000,23.274
+11/4/2018 11:03:10 AM,1,1,0.2167806,0.0500056,-1.5000165800,3.78790992,-0.0749382303,20.00000000,23.276
+11/4/2018 11:03:11 AM,1,1,0.2170722,0.0502972,-1.5000181258,3.78786865,-0.0753757354,20.00000000,23.277
+11/4/2018 11:03:12 AM,1,1,0.2173639,0.0505889,-1.5000173529,3.78781270,-0.0758132405,20.00000000,23.280
+11/4/2018 11:03:13 AM,1,1,0.2176556,0.0508806,-1.5000180586,3.78776049,-0.0762507456,20.00000000,23.280
+11/4/2018 11:03:14 AM,1,1,0.2179472,0.0511722,-1.5000173865,3.78771463,-0.0766882507,20.00000000,23.280
+11/4/2018 11:03:15 AM,1,1,0.2182389,0.0514639,-1.5000175882,3.78767173,-0.0771257558,20.00000000,23.281
+11/4/2018 11:03:16 AM,1,1,0.2185306,0.0517556,-1.5000174201,3.78762642,-0.0775632609,20.00000000,23.281
+11/4/2018 11:03:17 AM,1,1,0.2188222,0.0520472,-1.5000176218,3.78758739,-0.0780007659,20.00000000,23.282
+11/4/2018 11:03:18 AM,1,1,0.2191139,0.0523389,-1.5000166808,3.78753471,-0.0784382710,20.00000000,23.281
+11/4/2018 11:03:19 AM,1,1,0.2194056,0.0526306,-1.5000171177,3.78750135,-0.0788757759,20.00000000,23.275
+11/4/2018 11:03:20 AM,1,1,0.2196972,0.0529222,-1.5000161432,3.78744936,-0.0793132808,20.00000000,23.269
+11/4/2018 11:03:21 AM,1,1,0.2199889,0.0532139,-1.5000166136,3.78741135,-0.0797507858,20.00000000,23.266
+11/4/2018 11:03:22 AM,1,1,0.2202806,0.0535056,-1.5000176890,3.78737178,-0.0801882907,20.00000000,23.249
+11/4/2018 11:03:23 AM,1,1,0.2205722,0.0537972,-1.5000173529,3.78731498,-0.0806257957,20.00000000,23.235
+11/4/2018 11:03:24 AM,1,1,0.2208639,0.0540889,-1.5000164120,3.78727945,-0.0810633007,20.00000000,23.232
+11/4/2018 11:03:25 AM,1,1,0.2211556,0.0543806,-1.5000185627,3.78723491,-0.0815008058,20.00000000,23.222
+11/4/2018 11:03:26 AM,1,1,0.2214472,0.0546722,-1.5000178906,3.78718308,-0.0819383110,20.00000000,23.220
+11/4/2018 11:03:27 AM,1,1,0.2217389,0.0549639,-1.5000174201,3.78714670,-0.0823758162,20.00000000,23.219
+11/4/2018 11:03:28 AM,1,1,0.2220306,0.0552556,-1.5000180250,3.78709378,-0.0828133213,20.00000000,23.218
+11/4/2018 11:03:29 AM,1,1,0.2223222,0.0555472,-1.5000177898,3.78705157,-0.0832508266,20.00000000,23.220
+11/4/2018 11:03:31 AM,1,1,0.2226139,0.0558389,-1.5000174201,3.78700844,-0.0836883317,20.00000000,23.211
+11/4/2018 11:03:32 AM,1,1,0.2229056,0.0561306,-1.5000174873,3.78697026,-0.0841258369,20.00000000,23.206
+11/4/2018 11:03:33 AM,1,1,0.2231972,0.0564222,-1.5000176218,3.78691774,-0.0845633420,20.00000000,23.206
+11/4/2018 11:03:34 AM,1,1,0.2234889,0.0567139,-1.5000182266,3.78687010,-0.0850008471,20.00000000,23.207
+11/4/2018 11:03:35 AM,1,1,0.2237806,0.0570056,-1.5000181594,3.78682742,-0.0854383523,20.00000000,23.209
+11/4/2018 11:03:36 AM,1,1,0.2240722,0.0572972,-1.5000184283,3.78678522,-0.0858758575,20.00000000,23.209
+11/4/2018 11:03:37 AM,1,1,0.2243639,0.0575889,-1.5000169161,3.78674223,-0.0863133627,20.00000000,23.214
+11/4/2018 11:03:38 AM,1,1,0.2246556,0.0578806,-1.5000172185,3.78669941,-0.0867508678,20.00000000,23.214
+11/4/2018 11:03:39 AM,1,1,0.2249472,0.0581722,-1.5000179242,3.78666255,-0.0871883729,20.00000000,23.212
+11/4/2018 11:03:40 AM,1,1,0.2252389,0.0584639,-1.5000168825,3.78661895,-0.0876258780,20.00000000,23.214
+11/4/2018 11:03:41 AM,1,1,0.2255306,0.0587556,-1.5000176890,3.78657325,-0.0880633832,20.00000000,23.215
+11/4/2018 11:03:42 AM,1,1,0.2258222,0.0590472,-1.5000180922,3.78652732,-0.0885008883,20.00000000,23.209
+11/4/2018 11:03:43 AM,1,1,0.2261139,0.0593389,-1.5000178906,3.78648433,-0.0889383935,20.00000000,23.208
+11/4/2018 11:03:44 AM,1,1,0.2264056,0.0596306,-1.5000183611,3.78645159,-0.0893758987,20.00000000,23.205
+11/4/2018 11:03:45 AM,1,1,0.2266972,0.0599222,-1.5000181930,3.78640372,-0.0898134041,20.00000000,23.204
+11/4/2018 11:03:46 AM,1,1,0.2269889,0.0602139,-1.5000167480,3.78636500,-0.0902509093,20.00000000,23.204
+11/4/2018 11:03:47 AM,1,1,0.2272806,0.0605056,-1.5000178570,3.78631597,-0.0906884146,20.00000000,23.199
+11/4/2018 11:03:48 AM,1,1,0.2275722,0.0607972,-1.5000178906,3.78628082,-0.0911259198,20.00000000,23.199
+11/4/2018 11:03:49 AM,1,1,0.2278639,0.0610889,-1.5000175546,3.78622411,-0.0915634251,20.00000000,23.200
+11/4/2018 11:03:50 AM,1,1,0.2281556,0.0613806,-1.5000173529,3.78618888,-0.0920009303,20.00000000,23.201
+11/4/2018 11:03:52 AM,1,1,0.2284472,0.0616722,-1.5000178570,3.78613822,-0.0924384356,20.00000000,23.200
+11/4/2018 11:03:53 AM,1,1,0.2287389,0.0619639,-1.5000173865,3.78609826,-0.0928759408,20.00000000,23.197
+11/4/2018 11:03:54 AM,1,1,0.2290306,0.0622556,-1.5000186971,3.78606117,-0.0933134460,20.00000000,23.195
+11/4/2018 11:03:55 AM,1,1,0.2293222,0.0625472,-1.5000178570,3.78601966,-0.0937509513,20.00000000,23.192
+11/4/2018 11:03:56 AM,1,1,0.2296139,0.0628389,-1.5000172857,3.78596597,-0.0941884565,20.00000000,23.194
+11/4/2018 11:03:57 AM,1,1,0.2299056,0.0631306,-1.5000184619,3.78592702,-0.0946259617,20.00000000,23.195
+11/4/2018 11:03:58 AM,1,1,0.2301972,0.0634222,-1.5000176218,3.78588815,-0.0950634668,20.00000000,23.193
+11/4/2018 11:03:59 AM,1,1,0.2304889,0.0637139,-1.5000176218,3.78584214,-0.0955009720,20.00000000,23.195
+11/4/2018 11:04:00 AM,1,1,0.2307806,0.0640056,-1.5000185291,3.78579792,-0.0959384772,20.00000000,23.191
+11/4/2018 11:04:01 AM,1,1,0.2310722,0.0642972,-1.5000186299,3.78576611,-0.0963759824,20.00000000,23.194
+11/4/2018 11:04:02 AM,1,1,0.2313639,0.0645889,-1.5000181594,3.78571940,-0.0968134878,20.00000000,23.195
+11/4/2018 11:04:03 AM,1,1,0.2316556,0.0648806,-1.5000180922,3.78568068,-0.0972509931,20.00000000,23.196
+11/4/2018 11:04:04 AM,1,1,0.2319472,0.0651722,-1.5000184955,3.78563390,-0.0976884985,20.00000000,23.196
+11/4/2018 11:04:05 AM,1,1,0.2322389,0.0654639,-1.5000177562,3.78558673,-0.0981260038,20.00000000,23.199
+11/4/2018 11:04:06 AM,1,1,0.2325306,0.0657556,-1.5000179914,3.78554452,-0.0985635090,20.00000000,23.203
+11/4/2018 11:04:07 AM,1,1,0.2328222,0.0660472,-1.5000175209,3.78550146,-0.0990010143,20.00000000,23.203
+11/4/2018 11:04:08 AM,1,1,0.2331139,0.0663389,-1.5000179578,3.78546057,-0.0994385195,20.00000000,23.204
+11/4/2018 11:04:09 AM,1,1,0.2334056,0.0666306,-1.5000186635,3.78541960,-0.0998760249,20.00000000,23.203
+11/4/2018 11:04:10 AM,1,1,0.2336972,0.0669222,-1.5000171513,3.78537313,-0.1003135301,20.00000000,23.202
+11/4/2018 11:04:12 AM,1,1,0.2339889,0.0672139,-1.5000180922,3.78533255,-0.1007510353,20.00000000,23.204
+11/4/2018 11:04:13 AM,1,1,0.2342806,0.0675056,-1.5000187643,3.78529717,-0.1011885405,20.00000000,23.205
+11/4/2018 11:04:14 AM,1,1,0.2345722,0.0677972,-1.5000181258,3.78524526,-0.1016260457,20.00000000,23.203
+11/4/2018 11:04:15 AM,1,1,0.2348639,0.0680889,-1.5000173865,3.78520569,-0.1020635509,20.00000000,23.201
+11/4/2018 11:04:16 AM,1,1,0.2351556,0.0683806,-1.5000180250,3.78517055,-0.1025010561,20.00000000,23.203
+11/4/2018 11:04:17 AM,1,1,0.2354472,0.0686722,-1.5000176890,3.78512446,-0.1029385613,20.00000000,23.198
+11/4/2018 11:04:18 AM,1,1,0.2357389,0.0689639,-1.5000178570,3.78508086,-0.1033760665,20.00000000,23.197
+11/4/2018 11:04:19 AM,1,1,0.2360306,0.0692556,-1.5000184619,3.78504586,-0.1038135718,20.00000000,23.193
+11/4/2018 11:04:20 AM,1,1,0.2363222,0.0695472,-1.5000166808,3.78500280,-0.1042510771,20.00000000,23.193
+11/4/2018 11:04:21 AM,1,1,0.2366139,0.0698389,-1.5000179242,3.78496409,-0.1046885824,20.00000000,23.193
+11/4/2018 11:04:22 AM,1,1,0.2369056,0.0701306,-1.5000183275,3.78492498,-0.1051260877,20.00000000,23.190
+11/4/2018 11:04:23 AM,1,1,0.2371972,0.0704222,-1.5000185627,3.78488185,-0.1055635931,20.00000000,23.187
+11/4/2018 11:04:24 AM,1,1,0.2374889,0.0707139,-1.5000179578,3.78484313,-0.1060010984,20.00000000,23.192
+11/4/2018 11:04:25 AM,1,1,0.2377806,0.0710056,-1.5000170505,3.78480364,-0.1064386036,20.00000000,23.188
+11/4/2018 11:04:26 AM,1,1,0.2380722,0.0712972,-1.5000178234,3.78475414,-0.1068761087,20.00000000,23.187
+11/4/2018 11:04:27 AM,1,1,0.2383639,0.0715889,-1.5000176218,3.78471837,-0.1073136139,20.00000000,23.189
+11/4/2018 11:04:28 AM,1,1,0.2386556,0.0718806,-1.5000182602,3.78467864,-0.1077511191,20.00000000,23.187
+11/4/2018 11:04:29 AM,1,1,0.2389472,0.0721722,-1.5000180586,3.78464497,-0.1081886243,20.00000000,23.190
+11/4/2018 11:04:30 AM,1,1,0.2392389,0.0724639,-1.5000174201,3.78459873,-0.1086261294,20.00000000,23.190
+11/4/2018 11:04:31 AM,1,1,0.2395306,0.0727556,-1.5000177562,3.78455264,-0.1090636346,20.00000000,23.184
+11/4/2018 11:04:33 AM,1,1,0.2398222,0.0730472,-1.5000174201,3.78450904,-0.1095011397,20.00000000,23.184
+11/4/2018 11:04:34 AM,1,1,0.2401139,0.0733389,-1.5000172521,3.78446349,-0.1099386449,20.00000000,23.184
+11/4/2018 11:04:35 AM,1,1,0.2404056,0.0736306,-1.5000178570,3.78442090,-0.1103761501,20.00000000,23.183
+11/4/2018 11:04:36 AM,1,1,0.2406972,0.0739222,-1.5000176218,3.78438125,-0.1108136553,20.00000000,23.180
+11/4/2018 11:04:37 AM,1,1,0.2409889,0.0742139,-1.5000174537,3.78434556,-0.1112511606,20.00000000,23.181
+11/4/2018 11:04:38 AM,1,1,0.2412806,0.0745056,-1.5000182939,3.78430692,-0.1116886659,20.00000000,23.183
+11/4/2018 11:04:39 AM,1,1,0.2415722,0.0747972,-1.5000185627,3.78425936,-0.1121261712,20.00000000,23.179
+11/4/2018 11:04:40 AM,1,1,0.2418639,0.0750889,-1.5000174537,3.78422103,-0.1125636765,20.00000000,23.180
+11/4/2018 11:04:41 AM,1,1,0.2421556,0.0753806,-1.5000187643,3.78418015,-0.1130011818,20.00000000,23.181
+11/4/2018 11:04:42 AM,1,1,0.2424472,0.0756722,-1.5000179914,3.78413740,-0.1134386871,20.00000000,23.185
+11/4/2018 11:04:43 AM,1,1,0.2427389,0.0759639,-1.5000184283,3.78409713,-0.1138761924,20.00000000,23.181
+11/4/2018 11:04:44 AM,1,1,0.2430306,0.0762556,-1.5000176218,3.78405632,-0.1143136976,20.00000000,23.188
+11/4/2018 11:04:45 AM,1,1,0.2433222,0.0765472,-1.5000177898,3.78401349,-0.1147512028,20.00000000,23.179
+11/4/2018 11:04:46 AM,1,1,0.2436139,0.0768389,-1.5000171513,3.78397307,-0.1151887078,20.00000000,23.175
+11/4/2018 11:04:47 AM,1,1,0.2439056,0.0771306,-1.5000181930,3.78393769,-0.1156262131,20.00000000,23.175
+11/4/2018 11:04:48 AM,1,1,0.2441972,0.0774222,-1.5000188315,3.78388950,-0.1160637184,20.00000000,23.176
+11/4/2018 11:04:49 AM,1,1,0.2444889,0.0777139,-1.5000180250,3.78386227,-0.1165012236,20.00000000,23.178
+11/4/2018 11:04:50 AM,1,1,0.2447806,0.0780056,-1.5000188315,3.78381091,-0.1169387288,20.00000000,23.179
+11/4/2018 11:04:51 AM,1,1,0.2450722,0.0782972,-1.5000172521,3.78377320,-0.1173762341,20.00000000,23.180
+11/4/2018 11:04:52 AM,1,1,0.2453639,0.0785889,-1.5000177898,3.78373767,-0.1178137393,20.00000000,23.181
+11/4/2018 11:04:54 AM,1,1,0.2456556,0.0788806,-1.5000180922,3.78369453,-0.1182512446,20.00000000,23.181
+11/4/2018 11:04:55 AM,1,1,0.2459472,0.0791722,-1.5000189659,3.78365527,-0.1186887500,20.00000000,23.180
+11/4/2018 11:04:56 AM,1,1,0.2462389,0.0794639,-1.5000177898,3.78361678,-0.1191262553,20.00000000,23.180
+11/4/2018 11:04:57 AM,1,1,0.2465306,0.0797556,-1.5000185963,3.78357458,-0.1195637606,20.00000000,23.187
+11/4/2018 11:04:58 AM,1,1,0.2468222,0.0800472,-1.5000186971,3.78354191,-0.1200012659,20.00000000,23.183
+11/4/2018 11:04:59 AM,1,1,0.2471139,0.0803389,-1.5000177226,3.78350165,-0.1204387712,20.00000000,23.183
+11/4/2018 11:05:00 AM,1,1,0.2474056,0.0806306,-1.5000186971,3.78345827,-0.1208762766,20.00000000,23.178
+11/4/2018 11:05:01 AM,1,1,0.2476972,0.0809222,-1.5000179578,3.78341863,-0.1213137819,20.00000000,23.179
+11/4/2018 11:05:02 AM,1,1,0.2479889,0.0812139,-1.5000178234,3.78336905,-0.1217512872,20.00000000,23.179
+11/4/2018 11:05:03 AM,1,1,0.2482806,0.0815056,-1.5000181594,3.78333134,-0.1221887926,20.00000000,23.177
+11/4/2018 11:05:04 AM,1,1,0.2485722,0.0817972,-1.5000174537,3.78329736,-0.1226262977,20.00000000,23.171
+11/4/2018 11:05:05 AM,1,1,0.2488639,0.0820889,-1.5000181930,3.78325880,-0.1230638029,20.00000000,23.171
+11/4/2018 11:05:06 AM,1,1,0.2491556,0.0823806,-1.5000178234,3.78321605,-0.1235013081,20.00000000,23.167
+11/4/2018 11:05:07 AM,1,1,0.2494472,0.0826722,-1.5000176890,3.78317415,-0.1239388133,20.00000000,23.165
+11/4/2018 11:05:08 AM,1,1,0.2497389,0.0829639,-1.5000181258,3.78313388,-0.1243763185,20.00000000,23.162
+11/4/2018 11:05:09 AM,1,1,0.2500306,0.0832556,-1.5000180922,3.78309610,-0.1248138238,20.00000000,23.159
+11/4/2018 11:05:10 AM,1,1,0.2503222,0.0835472,-1.5000179914,3.78305148,-0.1252513291,20.00000000,23.159
+11/4/2018 11:05:11 AM,1,1,0.2506139,0.0838389,-1.5000186971,3.78300470,-0.1256888344,20.00000000,23.157
+11/4/2018 11:05:12 AM,1,1,0.2509056,0.0841306,-1.5000181930,3.78296971,-0.1261263398,20.00000000,23.157
+11/4/2018 11:05:13 AM,1,1,0.2511972,0.0844222,-1.5000182602,3.78293363,-0.1265638451,20.00000000,23.156
+11/4/2018 11:05:15 AM,1,1,0.2514889,0.0847139,-1.5000181258,3.78289569,-0.1270013505,20.00000000,23.155
+11/4/2018 11:05:16 AM,1,1,0.2517806,0.0850056,-1.5000189996,3.78286000,-0.1274388560,20.00000000,23.159
+11/4/2018 11:05:17 AM,1,1,0.2520722,0.0852972,-1.5000185627,3.78282113,-0.1278763615,20.00000000,23.155
+11/4/2018 11:05:18 AM,1,1,0.2523639,0.0855889,-1.5000178234,3.78277830,-0.1283138668,20.00000000,23.157
+11/4/2018 11:05:19 AM,1,1,0.2526556,0.0858806,-1.5000187307,3.78273826,-0.1287513722,20.00000000,23.163
+11/4/2018 11:05:20 AM,1,1,0.2529472,0.0861722,-1.5000178234,3.78269722,-0.1291888774,20.00000000,23.162
+11/4/2018 11:05:21 AM,1,1,0.2532389,0.0864639,-1.5000182602,3.78265734,-0.1296263827,20.00000000,23.164
+11/4/2018 11:05:22 AM,1,1,0.2535306,0.0867556,-1.5000180250,3.78262064,-0.1300638880,20.00000000,23.164
+11/4/2018 11:05:23 AM,1,1,0.2538222,0.0870472,-1.5000179578,3.78259294,-0.1305013933,20.00000000,23.160
+11/4/2018 11:05:24 AM,1,1,0.2541139,0.0873389,-1.5000179914,3.78255500,-0.1309388985,20.00000000,23.161
+11/4/2018 11:05:25 AM,1,1,0.2544056,0.0876306,-1.5000183275,3.78251543,-0.1313764038,20.00000000,23.162
+11/4/2018 11:05:26 AM,1,1,0.2546972,0.0879222,-1.5000178234,3.78247354,-0.1318139091,20.00000000,23.159
+11/4/2018 11:05:27 AM,1,1,0.2549889,0.0882139,-1.5000183947,3.78242667,-0.1322514144,20.00000000,23.163
+11/4/2018 11:05:28 AM,1,1,0.2552806,0.0885056,-1.5000181258,3.78239044,-0.1326889197,20.00000000,23.164
+11/4/2018 11:05:29 AM,1,1,0.2555722,0.0887972,-1.5000185627,3.78235871,-0.1331264250,20.00000000,23.166
+11/4/2018 11:05:30 AM,1,1,0.2558639,0.0890889,-1.5000178570,3.78230874,-0.1335639304,20.00000000,23.159
+11/4/2018 11:05:31 AM,1,1,0.2561556,0.0893806,-1.5000186299,3.78227034,-0.1340014357,20.00000000,23.162
+11/4/2018 11:05:32 AM,1,1,0.2564472,0.0896722,-1.5000193356,3.78222945,-0.1344389412,20.00000000,23.160
+11/4/2018 11:05:33 AM,1,1,0.2567389,0.0899639,-1.5000181594,3.78219205,-0.1348764465,20.00000000,23.157
+11/4/2018 11:05:34 AM,1,1,0.2570306,0.0902556,-1.5000189996,3.78215411,-0.1353139520,20.00000000,23.164
+11/4/2018 11:05:36 AM,1,1,0.2573222,0.0905472,-1.5000180250,3.78211547,-0.1357514573,20.00000000,23.163
+11/4/2018 11:05:37 AM,1,1,0.2576139,0.0908389,-1.5000178570,3.78207350,-0.1361889626,20.00000000,23.162
+11/4/2018 11:05:38 AM,1,1,0.2579056,0.0911306,-1.5000186971,3.78204766,-0.1366264679,20.00000000,23.161
+11/4/2018 11:05:39 AM,1,1,0.2581972,0.0914222,-1.5000188651,3.78199816,-0.1370639733,20.00000000,23.163
+11/4/2018 11:05:40 AM,1,1,0.2584889,0.0917139,-1.5000190332,3.78196782,-0.1375014786,20.00000000,23.159
+11/4/2018 11:05:41 AM,1,1,0.2587806,0.0920056,-1.5000184619,3.78192686,-0.1379389839,20.00000000,23.157
+11/4/2018 11:05:42 AM,1,1,0.2590722,0.0922972,-1.5000173865,3.78188449,-0.1383764890,20.00000000,23.159
+11/4/2018 11:05:43 AM,1,1,0.2593639,0.0925889,-1.5000172857,3.78185656,-0.1388139941,20.00000000,23.159
+11/4/2018 11:05:44 AM,1,1,0.2596556,0.0928806,-1.5000164792,3.78181358,-0.1392514991,20.00000000,23.158
+11/4/2018 11:05:45 AM,1,1,0.2599472,0.0931722,-1.5000170169,3.78176997,-0.1396890042,20.00000000,23.160
+11/4/2018 11:05:46 AM,1,1,0.2602389,0.0934639,-1.5000175546,3.78172955,-0.1401265093,20.00000000,23.151
+11/4/2018 11:05:47 AM,1,1,0.2605306,0.0937556,-1.5000173865,3.78168253,-0.1405640143,20.00000000,23.150
+11/4/2018 11:05:48 AM,1,1,0.2608222,0.0940472,-1.5000182602,3.78164700,-0.1410015194,20.00000000,23.146
+11/4/2018 11:05:49 AM,1,1,0.2611139,0.0943389,-1.5000173865,3.78161721,-0.1414390246,20.00000000,23.144
+11/4/2018 11:05:50 AM,1,1,0.2614056,0.0946306,-1.5000183275,3.78157539,-0.1418765299,20.00000000,23.138
+11/4/2018 11:05:51 AM,1,1,0.2616972,0.0949222,-1.5000176890,3.78154893,-0.1423140351,20.00000000,23.133
+11/4/2018 11:05:52 AM,1,1,0.2619889,0.0952139,-1.5000178906,3.78150036,-0.1427515403,20.00000000,23.134
+11/4/2018 11:05:53 AM,1,1,0.2622806,0.0955056,-1.5000174873,3.78145629,-0.1431890454,20.00000000,23.137
+11/4/2018 11:05:54 AM,1,1,0.2625722,0.0957972,-1.5000182602,3.78141594,-0.1436265507,20.00000000,23.134
+11/4/2018 11:05:55 AM,1,1,0.2628639,0.0960889,-1.5000179914,3.78138592,-0.1440640559,20.00000000,23.132
+11/4/2018 11:05:57 AM,1,1,0.2631556,0.0963806,-1.5000175209,3.78134037,-0.1445015610,20.00000000,23.130
+11/4/2018 11:05:58 AM,1,1,0.2634472,0.0966722,-1.5000177898,3.78129817,-0.1449390661,20.00000000,23.129
+11/4/2018 11:05:59 AM,1,1,0.2637389,0.0969639,-1.5000174873,3.78126674,-0.1453765712,20.00000000,23.129
+11/4/2018 11:06:00 AM,1,1,0.2640306,0.0972556,-1.5000183275,3.78122710,-0.1458140764,20.00000000,23.127
+11/4/2018 11:06:01 AM,1,1,0.2643222,0.0975472,-1.5000176554,3.78119335,-0.1462515815,20.00000000,23.128
+11/4/2018 11:06:02 AM,1,1,0.2646139,0.0978389,-1.5000170169,3.78114842,-0.1466890865,20.00000000,23.130
+11/4/2018 11:06:03 AM,1,1,0.2649056,0.0981306,-1.5000187979,3.78111017,-0.1471265917,20.00000000,23.132
+11/4/2018 11:06:04 AM,1,1,0.2651972,0.0984222,-1.5000179914,3.78106742,-0.1475640969,20.00000000,23.133
+11/4/2018 11:06:05 AM,1,1,0.2654889,0.0987139,-1.5000172521,3.78103988,-0.1480016021,20.00000000,23.135
+11/4/2018 11:06:06 AM,1,1,0.2657806,0.0990056,-1.5000178906,3.78099480,-0.1484391073,20.00000000,23.143
+11/4/2018 11:06:07 AM,1,1,0.2660722,0.0992972,-1.5000182266,3.78095422,-0.1488766126,20.00000000,23.146
+11/4/2018 11:06:08 AM,1,1,0.2663639,0.0995889,-1.5000177898,3.78091690,-0.1493141179,20.00000000,23.152
+11/4/2018 11:06:09 AM,1,1,0.2666556,0.0998806,-1.5000178906,3.78087757,-0.1497516232,20.00000000,23.154
+11/4/2018 11:06:10 AM,1,1,0.2669472,0.1001722,-1.5000173529,3.78083885,-0.1501891284,20.00000000,23.156
+11/4/2018 11:06:11 AM,1,1,0.2672389,0.1004639,-1.5000173193,3.78080448,-0.1506266335,20.00000000,23.154
+11/4/2018 11:06:12 AM,1,1,0.2675306,0.1007556,-1.5000178906,3.78076157,-0.1510641388,20.00000000,23.156
+11/4/2018 11:06:13 AM,1,1,0.2678222,0.1010472,-1.5000185627,3.78072410,-0.1515016440,20.00000000,23.161
+11/4/2018 11:06:14 AM,1,1,0.2681139,0.1013389,-1.5000178570,3.78068709,-0.1519391492,20.00000000,23.158
+11/4/2018 11:06:15 AM,1,1,0.2684056,0.1016306,-1.5000173529,3.78065373,-0.1523766544,20.00000000,23.166
+11/4/2018 11:06:16 AM,1,1,0.2686972,0.1019222,-1.5000178570,3.78061237,-0.1528141596,20.00000000,23.164
+11/4/2018 11:06:17 AM,1,1,0.2689889,0.1022139,-1.5000170841,3.78057645,-0.1532516647,20.00000000,23.164
+11/4/2018 11:06:19 AM,1,1,0.2692806,0.1025056,-1.5000177898,3.78053603,-0.1536891699,20.00000000,23.165

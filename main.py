@@ -26,7 +26,7 @@ if __name__ == "__main__":
 	#root.iconbitmap('@logo.xmb')
 
 	# 3. Starting app
-	main_bg_img = tkinter.PhotoImage(file='img/screen1.png')
+	main_bg_img = tkinter.PhotoImage(file='dist/img/screen1.png')
 	main_bg = tkinter.Label(root, image=main_bg_img)
 	main_bg.place(x=0,y=0,relwidth=1,relheight=1)
 
