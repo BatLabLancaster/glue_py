@@ -34,9 +34,9 @@ class Plot_Info_GUI:
 		print(self.start_log)
 
 		# 2. Oppening the imgs
-		bg_img = tkinter.PhotoImage(file='img/screen2.png')
-		back_button_img = tkinter.PhotoImage(file='img/back_button.png')
-		next_button_img = tkinter.PhotoImage(file='img/next_button.png')
+		bg_img = tkinter.PhotoImage(file='dist/img/screen2.png')
+		back_button_img = tkinter.PhotoImage(file='dist/img/back_button.png')
+		next_button_img = tkinter.PhotoImage(file='dist/img/next_button.png')
 
 		# 3. Destroying the previous screen and setting the new
 		self.main_bg = main_bg

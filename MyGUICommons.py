@@ -37,7 +37,7 @@ class myPopUp:
 		self.pop_text.grid(row=0, column=0)
 		
 		# 3. Setting the OK button
-		okbuttonimg = tkinter.PhotoImage(file='img/veiak.png')
+		okbuttonimg = tkinter.PhotoImage(file='dist/img/veiak.png')
 		self.ok_button = Button(self.cur_popup, anchor = 'center', compound = 'center', 
 										bg = "#%02x%02x%02x" % (50, 60, 70), fg = 'white',
 										command = multFunc(cur_screen.ableButtons,self.cur_popup.destroy), image = okbuttonimg,

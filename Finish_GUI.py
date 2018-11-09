@@ -93,10 +93,10 @@ class Finish_GUI:
 		print(self.start_log)
 		
 		# 2. Oppening the imgs
-		bg_img = tkinter.PhotoImage(file='img/screen3_1.png')
-		contact_img = tkinter.PhotoImage(file='img/contact.png')
-		back_button_img = tkinter.PhotoImage(file='img/back_button.png')
-		finish_button_img = tkinter.PhotoImage(file='img/finish.png')
+		bg_img = tkinter.PhotoImage(file='dist/img/screen3_1.png')
+		contact_img = tkinter.PhotoImage(file='dist/img/contact.png')
+		back_button_img = tkinter.PhotoImage(file='dist/img/back_button.png')
+		finish_button_img = tkinter.PhotoImage(file='dist/img/finish.png')
 
 		# 3. Destroying the previous screen and setting the new
 		self.main_bg = main_bg
@@ -304,10 +304,10 @@ class FinishR_GUI:
 		print(self.start_log)
 
 		# 2. Oppening the imgs
-		bg_img = tkinter.PhotoImage(file='img/screen3_3.png')
-		contact_img = tkinter.PhotoImage(file='img/contact.png')
-		back_button_img = tkinter.PhotoImage(file='img/back_button.png')
-		finish_button_img = tkinter.PhotoImage(file='img/finish.png')
+		bg_img = tkinter.PhotoImage(file='dist/img/screen3_3.png')
+		contact_img = tkinter.PhotoImage(file='dist/img/contact.png')
+		back_button_img = tkinter.PhotoImage(file='dist/img/back_button.png')
+		finish_button_img = tkinter.PhotoImage(file='dist/img/finish.png')
 
 		# 3. Destroying the previous screen and setting the new
 		self.main_bg = main_bg

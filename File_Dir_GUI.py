@@ -32,11 +32,11 @@ class File_Dir_GUI:
 
 		# 1. Oppening the imgs
 		print(self.start_log)
-		bg_img = tkinter.PhotoImage(file='img/screen1.png')
-		file_button_img = tkinter.PhotoImage(file='img/file_button.png')
-		dir_button_img = tkinter.PhotoImage(file='img/dir_button.png')
-		selected_dir_img = tkinter.PhotoImage(file='img/selected_dir.png')
-		next_button_img = tkinter.PhotoImage(file='img/next_button.png')
+		bg_img = tkinter.PhotoImage(file='dist/img/screen1.png')
+		file_button_img = tkinter.PhotoImage(file='dist/img/file_button.png')
+		dir_button_img = tkinter.PhotoImage(file='dist/img/dir_button.png')
+		selected_dir_img = tkinter.PhotoImage(file='dist/img/selected_dir.png')
+		next_button_img = tkinter.PhotoImage(file='dist/img/next_button.png')
 
 		# 2. Destroying the previous BackGround and Setting the new
 		self.main_bg = main_bg
@@ -179,14 +179,14 @@ class File_Dir_GUI:
 		if(self.selected_file.size() == 0):
 			continue_flag = False
 			self.disableButtons()
-			missingfile = tkinter.PhotoImage(file='img/missingfile.png')
+			missingfile = tkinter.PhotoImage(file='dist/img/missingfile.png')
 			myPopUp(self,' MISSING FILE!\n File is not selected. ',missingfile)
 			print(self.notfile)
 
 		elif(re.match("^\s*[selected directory]*\s*$",self.vartext2.get()) is not None):
 			continue_flag = False
 			self.disableButtons()
-			missingdir = tkinter.PhotoImage(file='img/missingdir.png')
+			missingdir = tkinter.PhotoImage(file='dist/img/missingdir.png')
 			myPopUp(self,' MISSING DIRECTORY!\n Directory is not selected. ',missingdir)
 			print(self.notdir)
 
