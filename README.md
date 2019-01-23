@@ -1,4 +1,6 @@
 
+**WARNING** This repository is deprecated. Use *batlab_dash* instead.
+
 To run the GUI:
 `python main.py`
 
